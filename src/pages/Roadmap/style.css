@@ -1,0 +1,35 @@
+.book-angel-img {
+  background-image: url("./book_angle.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* min-width: 150px;
+  max-width: 1200px; */
+}
+
+.cta-text-group {
+  width: fit-content;
+}
+
+.cta-img {
+  min-width: 150px;
+  max-width: 1200px;
+}
+
+.cta-text {
+  color: #72ed2f;
+}
+
+.book-img {
+  background-image: url("./book.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  /* min-width: 150px;
+  max-width: 1200px;  */
+}
+
+.cta2-img {
+  /* margin-left: 6rem; */
+  min-width: 150px;
+  max-width: 1200px;
+}

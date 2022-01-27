@@ -1,0 +1,14 @@
+.collapse-title {
+  cursor: pointer;
+  font-family: Poppins;
+}
+
+.line-style {
+  border: 1px solid #8cd469;
+}
+
+.collapse-text {
+  color: #dbf2d0;
+  font-family: Poppins;
+  font-size: 1rem;
+}

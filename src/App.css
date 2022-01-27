@@ -1,0 +1,51 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+
+.App {
+  background: linear-gradient(
+    136.16deg,
+    rgba(91, 135, 75, 0.97) 12.91%,
+    rgba(12, 55, 32, 0.87) 87.68%
+  );
+  min-height: 100vh;
+  color: white;
+}
+
+/* Custom scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #154c1e;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #217730;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.cl-green {
+  color: #c6ece1;
+  /* color: #0aca2a; */
+}
+
+.cl-green:hover {
+  color: #217730;
+}

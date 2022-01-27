@@ -1,0 +1,42 @@
+.header-field {
+  background-color: transparent;
+}
+
+.logo-text-style {
+  font-family: Something Strange;
+  /* identical to box height, or 107% */
+
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.menu-item {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.9rem;
+
+  /* Inside auto layout */
+  border-radius: 0.5rem;
+  margin: 0rem 1rem;
+  transition: background-color 0.5s;
+}
+
+.menu-item:hover {
+  background-color: rgba(255, 255, 255, 0.39);
+}
+
+.menu-text {
+  color: #f8f8fd;
+  /* display: flex;
+  flex-direction: row; */
+}
+
+.connect-btn {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 2rem;
+  padding: 0.3rem 1rem;
+  color: white;
+}

@@ -31,7 +31,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-md-6">
             <p>
-              <small>
+              <small className="footer-font">
                 Copyright Frankenstein NFT DAO &copy; {new Date().getFullYear()}
               </small>
             </p>

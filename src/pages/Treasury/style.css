@@ -1,3 +1,105 @@
-.treasury-page {
-  padding-top: 3rem;
+.treasury-left {
+  width: 19rem;
+  height: 90vh;
+  background: #154c1e;
+  padding: 5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.treasury-left-title {
+  font-family: Inter;
+  color: #ffffff;
+}
+
+.treasury-left-title:hover {
+  cursor: pointer;
+}
+
+.treasury-token-title {
+  font-family: Inter;
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+
+.treasury-token-text {
+  font-family: Inter;
+  font-size: 1rem;
+  color: #f5f5ff;
+}
+
+.treasury-part {
+  color: #a7a7a7;
+}
+
+.treasury-token-price {
+  font-family: Inter;
+  color: #ffffff;
+}
+
+.treasury-right {
+  width: 100%;
+}
+
+.boiler-img {
+  width: 87%;
+  height: auto;
+  min-width: 150px;
+  max-width: 1200px;
+}
+
+.treasury-middle-title {
+  font-family: Inter;
+  color: #ffffff;
+}
+
+.treasury-middle-content {
+  margin-top: 6rem;
+}
+
+.treasury-right-part {
+  width: 15rem;
+  margin-top: 10rem;
+  background: #18250c;
+  border-radius: 15px;
+}
+
+.dot-image {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+.right-part-title {
+  font-family: Inter;
+  color: #ffffff;
+  font-size: 0.9rem;
+}
+
+.right-part-price {
+  font-family: Inter;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.right-percentage {
+  font-family: Inter;
+  font-size: 0.9rem;
+  color: #15ffab;
+}
+
+.right-percentage-price {
+  font-family: Inter;
+  font-size: 0.9rem;
+  color: #154c1e;
+}
+
+.treasury-right-part1 {
+  width: 15rem;
+  background: #18250c;
+  border-radius: 15px;
+}
+
+.none-decort {
+  text-decoration: none;
 }

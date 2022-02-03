@@ -22,7 +22,7 @@ const Header = () => {
             />
           </div>
         </NavbarBrand>
-        <div className="text-end">
+        <div className="my-3 text-end">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">

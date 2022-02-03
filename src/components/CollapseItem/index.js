@@ -76,7 +76,9 @@ const CollapseItem = () => {
         >
           <div>
             <span className="collapse-text">01</span>
-            <span className="ms-3">What is the total supply? Is it fixed?</span>
+            <span className="ms-3 faq-font">
+              What is the total supply? Is it fixed?
+            </span>
           </div>
           {open1 ? <MdKeyboardArrowUp /> : <MdKeyboardArrowDown />}
         </div>
@@ -84,7 +86,7 @@ const CollapseItem = () => {
         <Collapse in={open1}>
           <div id="example-collapse-text">
             <p className="ms-4 collapse-text">
-              a. 1,000,000,000,000 FSTEIN. Yes, the total supply is fixed.
+              a. 1,000,000 FSTEIN. Yes, the total supply is fixed.
             </p>
           </div>
         </Collapse>
@@ -99,7 +101,7 @@ const CollapseItem = () => {
         >
           <div>
             <span className="collapse-text">02</span>
-            <span className="ms-3">
+            <span className="ms-3 faq-font">
               How can I purchase Frankenstein DAO (FSTEIN) tokens?
             </span>
           </div>
@@ -125,7 +127,9 @@ const CollapseItem = () => {
         >
           <div>
             <span className="collapse-text">03</span>
-            <span className="ms-3">How do I take part in the community?</span>
+            <span className="ms-3 faq-font">
+              How do I take part in the community?
+            </span>
           </div>
           {open3 ? <MdKeyboardArrowUp /> : <MdKeyboardArrowDown />}
         </div>
@@ -149,7 +153,7 @@ const CollapseItem = () => {
         >
           <div>
             <span className="collapse-text">04</span>
-            <span className="ms-3">
+            <span className="ms-3 faq-font">
               What are the benefits of joining the Frankenstein NFT DAO?
             </span>
           </div>
@@ -185,7 +189,7 @@ const CollapseItem = () => {
         >
           <div>
             <span className="collapse-text">05</span>
-            <span className="ms-3">Is this project audited?</span>
+            <span className="ms-3 faq-font">Is this project audited?</span>
           </div>
           {open5 ? <MdKeyboardArrowUp /> : <MdKeyboardArrowDown />}
         </div>
@@ -210,7 +214,7 @@ const CollapseItem = () => {
         >
           <div>
             <span className="collapse-text">06</span>
-            <span className="ms-3">Is the team anonymous?</span>
+            <span className="ms-3 faq-font">Is the team anonymous?</span>
           </div>
           {open6 ? <MdKeyboardArrowUp /> : <MdKeyboardArrowDown />}
         </div>
@@ -234,7 +238,7 @@ const CollapseItem = () => {
         >
           <div>
             <span className="collapse-text">07</span>
-            <span className="ms-3">Is there any tax?</span>
+            <span className="ms-3 faq-font">Is there any tax?</span>
           </div>
           {open7 ? <MdKeyboardArrowUp /> : <MdKeyboardArrowDown />}
         </div>
@@ -263,7 +267,7 @@ const CollapseItem = () => {
         >
           <div>
             <span className="collapse-text">08</span>
-            <span className="ms-3">How do I receive my dividend?</span>
+            <span className="ms-3 faq-font">How do I receive my dividend?</span>
           </div>
           {open8 ? <MdKeyboardArrowUp /> : <MdKeyboardArrowDown />}
         </div>
@@ -287,7 +291,7 @@ const CollapseItem = () => {
         >
           <div>
             <span className="collapse-text">09</span>
-            <span className="ms-3">
+            <span className="ms-3 faq-font">
               How are Frankenstein DAO Treasury funds invested?
             </span>
           </div>
@@ -318,7 +322,7 @@ const CollapseItem = () => {
         >
           <div>
             <span className="collapse-text">10</span>
-            <span className="ms-3">
+            <span className="ms-3 faq-font">
               How can I view the Frankenstein DAO Treasury funds?
             </span>
           </div>

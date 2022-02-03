@@ -1,3 +1,92 @@
-.dividend-page {
-  padding-top: 3rem;
+.dividend-left {
+  font-family: Inter;
+  width: 19rem;
+  height: 90vh;
+  background: #154c1e;
+  padding: 5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dividend-left-title {
+  font-family: Inter;
+  color: #ffffff;
+}
+
+.dividend-left-title:hover {
+  cursor: hover;
+}
+
+.dividend-token-title {
+  font-family: Inter;
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+
+.dividend-token-text {
+  font-family: Inter;
+  font-size: 1rem;
+  color: #f5f5ff;
+}
+
+.dividend-token-price {
+  color: #ffffff;
+}
+
+.dividend-part {
+  color: #a7a7a7;
+}
+
+.dividend-right {
+  width: 100%;
+}
+
+.dividend-title {
+  margin-top: 1.5rem;
+  margin-left: 15rem;
+  font-family: Inter;
+}
+
+.dividend-select {
+  margin-top: 1.2rem;
+}
+
+select {
+  width: 120px;
+  height: 30px;
+  font-family: Inter;
+  color: #f5f5ff;
+  background: transparent;
+  border: 2px solid transparent;
+  border-color: #154c1e;
+}
+
+select option {
+  background: transparent;
+  color: green;
+}
+
+.chart-show {
+  background: #154c1e;
+  border-radius: 24px;
+}
+
+.dividend-bottom-group {
+  background: #154c1e;
+  border-radius: 15px;
+}
+
+.title-style {
+  font-family: Inter;
+  font-size: 14px;
+}
+
+.text-style {
+  font-family: Inter;
+  font-size: 18px;
+}
+
+.img-width {
+  width: 100%;
 }

@@ -46,7 +46,6 @@ const App = () => {
             <Route path="/roadmap" component={Roadmap} />
             <Route path="/faq" component={Faq} />
             <Route path="/aboutus" component={Aboutus} />
-            <Route path="/greenpaper" component={Greenpaper} />
           </Switch>
           {showButton && (
             <div onClick={scrollToTop} className="back-to-top">
@@ -54,6 +53,7 @@ const App = () => {
             </div>
           )}
         </Container>
+        <Route path="/greenpaper" component={Greenpaper} />
       </div>
     </Router>
   );

@@ -1,15 +1,16 @@
 .head-img {
-  width: 70%;
+  width: 90%;
   min-width: 150px;
   max-width: 1200px;
 }
 
 .font-family-com {
-  font-family: DM Sans;
+  font-family: Poppins;
+  font-size: 2.25rem;
 }
 
 .ghost-img {
-  height: 4rem;
+  width: 80%;
 }
 
 .hands-img {
@@ -59,4 +60,24 @@
   width: 80%;
   min-width: 150px;
   max-width: 1200px;
+}
+
+.font-home {
+  font-family: DM Sans;
+}
+
+.font-home-size {
+  font-size: 3.5rem;
+}
+
+.home-grp-img {
+  background-image: url("./Grp.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.p-text {
+  /* text-decoration: underline #8cd469;
+  box-shadow: 0px -10px; */
+  box-shadow: inset 0 -12px #8cd469;
 }
